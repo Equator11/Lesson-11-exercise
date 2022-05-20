@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  <title>Grid practics</title>
+
+  <style>
+    .eleven-b {
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+    }
+
+    .eleven-c {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 10px;
+    }
+
+    p{
+        font-family: Roboto, Arial;
+      }
+        .img-3 {
+      width: 150px;
+      height: 150px;
+      margin-right: 50px;
+      margin-bottom: 5px;
+      }
+      
+      .oliver {
+        font-weight: bold;
+        margin-left: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      
+      .mutual-friends {
+        color: #8f7979;
+        font-size: 12px;
+        width: 100px;
+      }
+
+         .div-mutual{
+           display: inline-block;
+           vertical-align: top;
+          margin-left: 5px;
+         }
+
+      .add{
+        background-color: hsl(261, 98%, 51%);
+        color: white;
+        border: none;
+        font-family: Arial;
+        font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 3px;
+        margin-left: 5px;
+        margin-top: 0px;
+      }
+
+      .div-nine-g {
+        border-width: 1px;
+        border-style: inset;
+        width: 150px;
+        padding-bottom: 5px;
+        vertical-align: top;
+      }
+
+      .rounded-image {
+        width: 25px;
+        height: 25px;
+        border-radius: 50px;
+      }
+
+      .div-img {
+        display: inline-block;
+       width: 30px;
+       vertical-align: bottom;
+       margin-left: 5px;
+      }
+
+      .eleven-d {
+        background-color: wheat;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 600px;
+      }
+  </style>
+  </head>
+<body style="background-color: black; padding-bottom: 56px;">
+  <p style="color: white;"><strong>11a</strong></p>
+ <div style="
+ display:grid;
+ grid-template-columns: 200px 75px;
+ ">
+  <div style="background-color: lightblue;">200px</div>
+  <div style="background-color:lightpink">75px</div>
+ </div>
+
+ <p style="color: white;"><strong>11b</strong></p>
+ <div class="eleven-b">
+   <div style="background-color: lightblue;">col1</div>
+   <div style="background-color: lightpink;">col2</div>
+   <div style="background-color: lightblue;">col3</div>
+ </div>
+
+ <p style="color: white;"><strong>11c</strong></p>
+ <div class="eleven-c">
+<div style=" background-color: lightpink;">col1</div>
+<div style=" background-color: lightpink;">col2</div>
+<div style=" background-color: lightpink;">col3</div>
+<div style=" background-color: lightpink;">col4</div>
+<div style=" background-color: lightpink;">col1</div>
+<div style=" background-color: lightpink;">col2</div>
+<div style=" background-color: lightpink;">col3</div>
+<div style=" background-color: lightpink;">col4</div>
+ </div>
+
+ <p style="color: white;"><strong>11d</strong></p>
+ <div class="eleven-d">
+  <div class="div-nine-g">
+    <img class="img-3" src="/intro-to-html/white cat.jpg" alt="">
+      <p class="oliver">Oliver</p>
+          <div class="div-img"> <img class="rounded-image" src="/intro-to-html/white cat.jpg" alt=""></div>
+       <div class="div-mutual">
+         <p class="mutual-friends">2 mutual friends</p> 
+           </div>
+                   <button class="add">Add Friend</button>
+                      </div>
+
+
+                     <div class="div-nine-g">
+                   <img class="img-3" src="/intro-to-html/cat facemask.jpg" alt="">
+                <p class="oliver">Mimi</p>
+             <div class="div-img"> <img class="rounded-image" src="
+              intro-to-html/white cat.jpg" alt=""></div>
+          <div class="div-mutual">
+      <p class="mutual-friends">3 mutual friends</p> 
+    </div>  
+   <button class="add">Add Friend</button>
+  </div>
+
+  <div class="div-nine-g">
+    <img class="img-3" src="/intro-to-html/fine cat.jpg" alt="">
+    <p class="oliver">Rex</p>
+    <div class="div-img"> <img class="rounded-image" src="/intro-to-html/white cat.jpg" alt=""></div>
+    <div class="div-mutual">
+      <p class="mutual-friends">5 mutual friends</p> 
+    </div>  
+     <button class="add">Add Friend</button>
+   </div>
+ </div>
+</body>
+</html>
